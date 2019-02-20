@@ -2,8 +2,15 @@
 
 using namespace std;
 
+//Add a void function called square() that takes an int value to be squared. Have the function print the squared value
+void square(int toSquare)
+{
+    cout << (toSquare * toSquare) << endl;
+}
+
 int main()
 {
-    cout << "hello world"<<endl;
+    square(2);
+
     return 0;
 }
