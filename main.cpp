@@ -1,16 +1,17 @@
 #include <iostream>
-
+#include <math.h>
 using namespace std;
 
-//Add a void function called square() that takes an int value to be squared. Have the function print the squared value
-void square(int toSquare)
+//Change the name of the function to be called power and have it take an int base and an int exponent.
+// Print the base number raised to the exponent power.
+void power(int base, int exponent)
 {
-    cout << (toSquare * toSquare) << endl;
+    cout << pow (base, exponent) << endl;
 }
 
 int main()
 {
-    square(2);
+    power(2,3);
 
     return 0;
 }
