@@ -4,14 +4,15 @@ using namespace std;
 
 //Change the name of the function to be called power and have it take an int base and an int exponent.
 // Print the base number raised to the exponent power.
-void power(float base, int exponent)
+int power(float base, int exponent)
 {
-    cout << pow (base, exponent) << endl;
+    int toReturn =  pow (base, exponent);
+    return toReturn;
 }
 
 int main()
 {
-    power(2.5, 3);
+    cout << power(2.5, 3) << endl;
 
     return 0;
 }
