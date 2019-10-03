@@ -9,7 +9,7 @@ int power(float base, int exponent)
     int toReturn =  pow (base, exponent);
     return toReturn;
 }
-
+//Git Kraken test
 int main()
 {
     cout << power(2.5, 3) << endl;
