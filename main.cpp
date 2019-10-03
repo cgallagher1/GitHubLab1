@@ -10,6 +10,7 @@ int power(float base, int exponent)
     return toReturn;
 }
 //Git Kraken test
+//New Branch to merge
 int main()
 {
     cout << power(2.5, 3) << endl;
